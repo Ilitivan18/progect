@@ -1,0 +1,16 @@
+E:\Учебная практика\Новая папка\paint\paint\bin\Debug\paint.exe.config
+E:\Учебная практика\Новая папка\paint\paint\bin\Debug\paint.exe
+E:\Учебная практика\Новая папка\paint\paint\bin\Debug\paint.pdb
+E:\Учебная практика\Новая папка\paint\paint\obj\Debug\paint.csproj.AssemblyReference.cache
+E:\Учебная практика\Новая папка\paint\paint\obj\Debug\paint.csproj.SuggestedBindingRedirects.cache
+E:\Учебная практика\Новая папка\paint\paint\obj\Debug\MainWindow.g.cs
+E:\Учебная практика\Новая папка\paint\paint\obj\Debug\App.g.cs
+E:\Учебная практика\Новая папка\paint\paint\obj\Debug\paint_MarkupCompile.cache
+E:\Учебная практика\Новая папка\paint\paint\obj\Debug\paint_MarkupCompile.lref
+E:\Учебная практика\Новая папка\paint\paint\obj\Debug\MainWindow.baml
+E:\Учебная практика\Новая папка\paint\paint\obj\Debug\paint.g.resources
+E:\Учебная практика\Новая папка\paint\paint\obj\Debug\paint.Properties.Resources.resources
+E:\Учебная практика\Новая папка\paint\paint\obj\Debug\paint.csproj.GenerateResource.cache
+E:\Учебная практика\Новая папка\paint\paint\obj\Debug\paint.csproj.CoreCompileInputs.cache
+E:\Учебная практика\Новая папка\paint\paint\obj\Debug\paint.exe
+E:\Учебная практика\Новая папка\paint\paint\obj\Debug\paint.pdb

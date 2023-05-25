@@ -1,0 +1,19 @@
+﻿<Window x:Class="paint.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:paint"
+        mc:Ignorable="d"
+           Title="Painter" Height="405" Width="800" WindowStartupLocation="CenterScreen" MouseDown="cmDown" MouseMove="cmMove" MouseUp="cmUp">
+    <Grid>
+        <Canvas x:Name="g" HorizontalAlignment="Center" Height="283" Margin="0,10,0,0" VerticalAlignment="Top" Width="772" Background="#FFDCF1F1"/>
+        <RadioButton x:Name="rbRed" Content="зелёный" HorizontalAlignment="Left" Margin="75,303,0,0" VerticalAlignment="Top" GroupName="Color" Checked="cmRed"/>
+        <RadioButton x:Name="rbBlue" Content="юёрный" HorizontalAlignment="Left" Margin="75,323,0,0" VerticalAlignment="Top" GroupName="Color" Checked="cmBlue"/>
+        <RadioButton x:Name="rbGreen" Content="синий" HorizontalAlignment="Left" Margin="75,343,0,0" VerticalAlignment="Top" GroupName="Color" Checked="cmGreen"/>
+        <Rectangle x:Name="rColor" Fill="#008000" HorizontalAlignment="Left" Height="60" Margin="10,298,0,0" Stroke="Black" VerticalAlignment="Top" Width="60"/>
+        <Slider x:Name="slSize" HorizontalAlignment="Left" Margin="179,323,0,0" VerticalAlignment="Top" Width="264" Minimum="1" ValueChanged="cmSize"/>
+        <Button Content="Очистить" HorizontalAlignment="Left" Margin="469,303,0,0" VerticalAlignment="Top" Width="302" Height="55" Click="cmClear"/>
+
+    </Grid>
+</Window>

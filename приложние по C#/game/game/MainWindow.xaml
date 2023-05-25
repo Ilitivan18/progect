@@ -1,0 +1,15 @@
+﻿<Window x:Class="game.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:game"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="501" Width="533" WindowStartupLocation="CenterScreen" KeyDown="cmKey">
+    <Grid>
+        <Canvas x:Name="g" HorizontalAlignment="Center" Height="400" Margin="0,50,0,0" VerticalAlignment="Top" Width="500" Background="#FFB4F1D0"/>
+        <Label Content="Время:" HorizontalAlignment="Left" Margin="12,10,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tbTime" HorizontalAlignment="Left" Height="23" Margin="64,14,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="tbTim" HorizontalAlignment="Right" Height="23" Margin="0,14,64,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="120"></TextBox>
+    </Grid>
+</Window>
